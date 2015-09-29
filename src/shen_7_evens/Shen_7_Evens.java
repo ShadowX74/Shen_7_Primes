@@ -21,13 +21,13 @@ public class Shen_7_Evens {
             //What happens in the loop 
             //will happen again and again 
             //until the loop exits
-//            if(isEven(i)) {
-//                System.out.println(i + " is even!");
-//                evens++;
-//            } else if(isOdd(i)) {
-//                System.out.println(i + " is odd!");
-//                odds++;
-//            }
+            if(isEven(i)) {
+                System.out.println(i + " is even!");
+                evens++;
+            } else if(isOdd(i)) {
+                System.out.println(i + " is odd!");
+                odds++;
+            }
             if(isPrime(i)) {
                 System.out.println(i + " is prime!");
             }
